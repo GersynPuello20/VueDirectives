@@ -1,15 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
-import Directives from '../components/vue/Directives.vue';
+// import Directives from '../components/vue/Directives.vue';
+import TODO from '../components/vue/TODO.vue';
 ---
 
 <Layout title="Welcome to Astro.">
-	Hola mundo 
-	
+
+	<TODO client:load />
 </Layout>
 
-<Directives client:load>
-	
-</Directives>
+<!-- <Directives client:load> -->
+
 
